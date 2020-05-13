@@ -1,0 +1,180 @@
+body {
+	font-family: serif, calibri;
+	margin:0px;
+	padding:0px;
+	background-color: white;
+	width:100%;
+	border:3px solid;
+	border-color:black;
+}
+
+h1 {
+	background-color:red;
+	margin:0px;
+	width:100%;
+	border:2px solid ;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:25px;
+	text-align:center;
+	text-shadow:1px 1px;
+	border-color:black;
+	
+}
+
+form {
+	padding-left:80%;
+	margin:0%;
+	margin-bottom:0%;
+	position:right;
+	font-size:16px;
+	text-shadow:none; 
+}
+.register input {
+	border:2px solid;
+	border-color:black;
+}
+br {
+	background-color:white;
+}
+p {
+	margin:0px;
+	padding:0px;
+	background-color:white;
+	font-size:18px;
+	text-align:center;
+
+}
+.simuautopage {
+	font-size:18px;
+	text-align:left;
+}
+nav {
+	margin:0px;
+	padding:0px;
+	width : 100% ;
+	background-color :#d3d3d3 ;
+}
+
+nav > ul {
+	margin : 0px ;
+	padding : 0px ;
+}
+nav > ul::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+nav > ul > li {
+	float : left;
+	position : relative;
+}
+nav > ul > li > a {
+	padding :20px 30px;
+	color :black;
+}
+nav >ul >li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+nav li {
+	list-style-type :none ; 
+}
+.submenu {
+	display : none ;
+}
+nav a {
+	display :inline-block;
+	text-decoration :none;
+	font-size:20px;
+}
+
+nav li:hover .submenu {
+	display :inline-block;
+	position:absolute;
+	top:100%;
+	left:0px;
+	padding:0px;
+	z-index:1000;
+}
+.subemu li {
+	border-bottom:1px solid #ccc;
+}
+.submenu li a{
+	padding:15px 30px;
+	font-size:16px;
+	color:#222538;
+	width:270px;
+}
+.simuauto:hover{
+	border-top:5px solid #808080;
+	background-color:rgba(128,128,128,0.15);
+}
+.jeux:hover{
+	border-top:5px solid #808080;
+	background-color:rgba(128,128,128,0.15);
+}
+.moto:hover{
+	border-top:5px solid #808080;
+	background-color:rgba(128,128,128,0.15);
+}
+.ordi:hover{
+	border-top:5px solid #808080;
+	background-color:rgba(128,128,128,0.15);
+}
+.guitare:hover{
+	border-top:5px solid #808080;
+	background-color:rgba(128,128,128,0.15);
+}
+.contact:hover{
+	border-top:5px solid #808080;
+	background-color:rgba(128,128,128,0.15);
+}
+.index:hover{
+	border-top:5px solid #808080;
+	background-color:rgba(128,128,128,0.15);
+}
+.simuauto .submenu{
+	background-color:#d3d3d3;
+}
+.jeux .submenu{
+	background-color:#d3d3d3;
+}
+.moto .submenu{
+	background-color:#d3d3d3;
+}
+.ordi .submenu{
+	background-color:#d3d3d3;
+}
+.guitare .submenu{
+	background-color:#d3d3d3;
+}
+.contact .submenu{
+	background-color:#d3d3d3;
+}
+.submenu li:hover a{
+	color:#EEE;
+	font-weight:bold;
+}
+.simuauto .submenu li:hover{
+	background-color:grey;
+}
+.jeux .submenu li:hover{
+	background-color:grey;
+}
+.moto .submenu li:hover{
+	background-color:grey;
+}
+.ordi .submenu li:hover{
+	background-color:grey;
+}
+.guitare .submenu li:hover{
+	background-color:grey;
+}
+.contact .submenu li:hover{
+	background-color:grey;
+}
+.listesimu a{
+	text-decoration:none;
+	font-size:20px;
+
+}
